@@ -17,7 +17,7 @@ public class CompleteDuplicacyRemove {
         }
         for (Integer key: m.keySet()) {
             if (m.get(key)==1){
-                System.out.println(key+" ");
+                System.out.print(key+" ");
             }
         }
     }

@@ -13,13 +13,11 @@ public class DelElmntAtSpecificPos {
 
         List<Integer> l = new ArrayList<>();
 
-        for (int i = 0; i < a.length; i++) {
-            if (a[i]==a[pos]){
-                System.out.println("Deleted element is "+a[pos]);
-                continue;
-            }
-            else {
-                l.add(a[i]);
+        for (int j : a) {
+            if (j == a[pos]) {
+                System.out.println("Deleted element is " + a[pos]);
+            } else {
+                l.add(j);
             }
         }
         System.out.println("After Removing the element");
