@@ -10,8 +10,6 @@ public class StringSorting {
         String[] str = null;
         str = s.split(",");
         Arrays.sort(str);
-        Arrays.toString(str);
-
 
         for (String store : str){
             System.out.println(store);

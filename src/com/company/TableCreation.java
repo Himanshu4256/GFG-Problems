@@ -4,7 +4,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class TwoTable {
+public class TableCreation {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -16,8 +16,6 @@ public class TwoTable {
         for (int i=1;i<=10;i++){
             c = a*i;
             System.out.println(a+"*"+""+i+"="+c);
-
         }
-
     }
 }
