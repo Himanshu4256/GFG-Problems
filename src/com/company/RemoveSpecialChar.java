@@ -13,6 +13,10 @@ public class RemoveSpecialChar {
             {
                 resut=resut+s.charAt(j);
             }
+
+//            char ch = s.charAt(j);
+//            if (ch == '!' || ch == '@' || ch == '#' || ch == '$' || ch == '&'){}
+//            else resut = resut+ch;
         }
         System.out.println("After removing :" +resut);
     }

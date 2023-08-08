@@ -14,9 +14,6 @@ public class Array_User_Input {
 //            ar[i]=sc.nextInt();
 //        }
 
-
-
-
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number of values.....");
         int num = sc.nextInt(); // ye Array k size k liye hai kitne size ka array hai.
