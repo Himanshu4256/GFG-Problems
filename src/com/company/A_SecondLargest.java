@@ -7,7 +7,7 @@ public class A_SecondLargest {
         for (int i = 0; i < a.length; i++) {
             for (int j = i+1; j < a.length; j++) {
 
-                //Now Ham Array ko sort krenge.
+                //Now Ham Array ko sort krenge decreasing order mai.
                 if (a[i]<a[j]){
                     temp = a[i];
                     a[i] = a[j];
