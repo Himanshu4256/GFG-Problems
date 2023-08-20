@@ -1,6 +1,6 @@
 package com.company;
 
-public class MergeSort {
+public class MergeArrays {
     public static void main(String[] args) {
         int a[] = {4,6,8,9,3};
         int b[] = {9,5,7,1,8};
