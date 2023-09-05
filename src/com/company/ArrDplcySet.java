@@ -11,8 +11,6 @@ public class ArrDplcySet {
         Set<Integer> s = new HashSet<>();
 
         for (int a: arr) {
-
-//            boolean b = s.add(a);
             if (s.add(a)==false){
                 System.out.println(a);
             }
