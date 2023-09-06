@@ -22,6 +22,7 @@ public class Array_User_Input {
 
         for (int i=0;i< ar.length;i++){
             ar[i] = sc.nextInt(); // yha input ko hme array k index pr store kiya hai means 1st input a[0] pr 2nd a[1] pr....
+            System.out.print(" "+ar[i]);
         }
 
     }

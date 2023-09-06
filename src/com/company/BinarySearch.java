@@ -9,7 +9,7 @@ public class BinarySearch {
         int s = 0;
         int e = a.length-1;
         int m = (s+e)/2;
-        int index = 0;
+//        int index = 0;
         Arrays.sort(a);
 
         while (s<=e) {
