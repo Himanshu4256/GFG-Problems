@@ -12,7 +12,6 @@ public class ArrDplcyBruteForce {
                 if ((a[i]==a[j])){
                     set.add(a[i]);
 //                    System.out.println("Duplicate Values are :"+a[j]);
-
                 }
 
             }

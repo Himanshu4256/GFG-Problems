@@ -13,14 +13,10 @@ public class ArrayDuplacyRemove {
             if(l.contains(values)){
                 continue;
             }
-
             else{
                 l.add(values);
             }
-
         }
         System.out.println(l);
-
-
     }
 }

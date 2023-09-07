@@ -3,7 +3,7 @@ package com.company;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CompleteDuplicacyRemove {
+public class CompleteDuplicacyRemove_MAP {
     public static void main(String[] args) {
         int arr[] = {2,3,5,7,4,3,4};
         Map<Integer,Integer> m = new HashMap<>();
