@@ -9,8 +9,6 @@ public class vishal {
                 if (arr[i] >= arr[j]) {
                     a=arr[i];
 //
-
-
                 }
 
             }

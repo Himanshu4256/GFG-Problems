@@ -1,5 +1,8 @@
 package com.company;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class ArrayMinMax {
     public static void main(String[] args) {
         int arr[] = {9,5,8,6};
@@ -10,5 +13,7 @@ public class ArrayMinMax {
             }
         }
         System.out.println("Max is :"+max);
+
+
     }
 }
