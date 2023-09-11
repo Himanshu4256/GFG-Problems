@@ -14,8 +14,6 @@ public class RemoveVowels {
         }
         return rem;
     }
-
-
     public static void main(String[] args) {
         String s = "Welcome";
         RemoveVowels r = new RemoveVowels();
