@@ -12,17 +12,17 @@ public class StringWordReverse {
 //        System.out.println(rev);
 
 
-
-
-
         String s = "i.like.this.program.very.much";
         String[] str = s.split("\\.");
         StringBuilder reversedString = new StringBuilder();
 
+        // Loop through the array of split strings in reverse order (except the last element)
         for (int i = str.length - 1; i > 0; i--) {
+            // Append each word followed by a dot to the StringBuilder
             reversedString.append(str[i]).append(".");
         }
-        reversedString.append(str[0]);
+        // Append the last word without a trailing dot
+        reversedString.append(str[0]); // loop ko lessthen 0 tak chalaya or [o] index ko allg se add kr diya.
 
         System.out.println(reversedString.toString());
     }
